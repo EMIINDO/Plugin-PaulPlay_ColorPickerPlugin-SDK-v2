@@ -1,0 +1,34 @@
+{
+  "is-c3-addon": true,
+  "sdk-version": 2,
+  "min-construct-version": "r401",
+  "type": "plugin",
+  "name": "Mobile Color Picker",
+  "id": "PaulPlay_ColorPickerPlugin",
+  "version": "1.0.0.0",
+  "author": "PaulPlay",
+  "website": "https://www.construct.net",
+  "documentation": "https://www.construct.net",
+  "description": "Native mobile color picker for android and ios. Uses the native system dialogue. Based on cordova-plugin-color-picker by avargaskun",
+  "editor-scripts": [
+    "plugin.js",
+    "type.js",
+    "instance.js"
+  ],
+  "file-list": [
+    "c3runtime/main.js",
+    "c3runtime/plugin.js",
+    "c3runtime/type.js",
+    "c3runtime/instance.js",
+    "c3runtime/conditions.js",
+    "c3runtime/actions.js",
+    "c3runtime/expressions.js",
+    "lang/en-US.json",
+    "aces.json",
+    "addon.json",
+    "icon.svg",
+    "instance.js",
+    "plugin.js",
+    "type.js"
+  ]
+}

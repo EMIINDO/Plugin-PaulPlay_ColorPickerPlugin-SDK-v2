@@ -1,0 +1,25 @@
+{
+  "custom": {
+    "conditions": [
+      {
+        "id": "is_available",
+        "scriptName": "Is_Available",
+        "highlight": false
+      }
+    ],
+    "actions": [
+      {
+        "id": "show_picker",
+        "scriptName": "Show_Picker",
+        "highlight": false
+      }
+    ],
+    "expressions": [
+      {
+        "id": "chosencolor",
+        "expressionName": "Chosencolor",
+        "returnType": "string"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for Mobile Color Picker Plugin",
+  "text": {
+    "plugins": {
+      "paulplay_colorpickerplugin": {
+        "name": "Mobile Color Picker",
+        "description": "Native mobile color picker for android and ios. Uses the native system dialogue.",
+        "help-url": "https://github.com/armandoalonso/c3IDE",
+        "properties": {},
+        "aceCategories": {
+          "custom": "value"
+        },
+        "conditions": {
+          "is_available": {
+            "list-name": "Is Available",
+            "display-text": "Is Available",
+            "description": "Check whether the color picker api is available. It should be supported on android and ios since ios 14."
+          }
+        },
+        "actions": {
+          "show_picker": {
+            "list-name": "Show Picker",
+            "display-text": "Show color picker",
+            "description": "Shows the color picker on supported devices. "
+          }
+        },
+        "expressions": {
+          "chosencolor": {
+            "translated-name": "Chosencolor",
+            "description": "The color that the user has selected. Returned as a hex code. "
+          }
+        }
+      }
+    }
+  }
+}
